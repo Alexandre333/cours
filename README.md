@@ -6,7 +6,7 @@
   <li>
     Rafraîchissement HTML
     <ul>
-      <li>Exemple du page web : <a href="https://github.com/Alexandre333/cours/blob/main/html/chats.html">chats.html</a> avec la photo du <a href="https://github.com/Alexandre333/cours/blob/main/html/cyprus_cat.jpg">chat</a></li>
+      <li>Exemple d'une page web : <a href="https://github.com/Alexandre333/cours/blob/main/html/chats.html">chats.html</a> avec la photo du <a href="https://github.com/Alexandre333/cours/blob/main/html/cyprus_cat.jpg">chat</a></li>
       <li>Exemple d'un formulaire :  <a href="https://github.com/Alexandre333/cours/blob/main/html/exemple_form.html">exemple_form.html</a></li>
     </ul>
    </li>

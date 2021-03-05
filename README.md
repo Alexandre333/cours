@@ -11,4 +11,7 @@
     </ul>
    </li>
   <li>Cours PHP</li>
+  <ul>
+      <li><a href="https://github.com/Alexandre333/cours/blob/main/php/exercices.php">Exercices : exercices.php</a></li>
+    </ul>
 </ul>

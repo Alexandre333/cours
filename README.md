@@ -1,5 +1,12 @@
-<h1>Dépôt des exercices et exemples dans le cadre de mes cours (CC BY-NC-SA 2.0)</h1>
-<h2>Sommaire</h2>
+<h1>Sommaire</h1>
 
-
-
+<ul>
+  <li>
+    Rafraîchissement HTML
+    <ul>
+      <li>Exemple du page web : chats.html</li>
+      <li>Exemple d'un formulaire :  exemple_form.html</li>
+    </ul>
+   </li>
+  <li>Cours PHP</li>
+</ul>

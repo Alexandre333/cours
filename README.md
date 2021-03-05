@@ -12,6 +12,6 @@
    </li>
   <li>Cours PHP</li>
   <ul>
-      <li>Exercices initiation : <a href="https://github.com/Alexandre333/cours/blob/main/php/exercices.php">exercices.php</a></li>
+      <li>Exercices d'initiation : <a href="https://github.com/Alexandre333/cours/blob/main/php/exercices.php">exercices.php</a></li>
     </ul>
 </ul>

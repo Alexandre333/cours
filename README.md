@@ -4,7 +4,7 @@
   <li>
     Rafraîchissement HTML
     <ul>
-      <li>Exemple du page web : chats.html</li>
+      <li><a href="https://github.com/Alexandre333/cours/blob/main/chats.html">Exemple du page web : chats.html</a></li>
       <li>Exemple d'un formulaire :  exemple_form.html</li>
     </ul>
    </li>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exemple de formulaire</title>
+</head>
+<body>
+
+	<h1>Un formulaire d'inscription</h1>
+	
+	<form action="../chemin/vers/traitement">
+		<label for="prenom">Votre prénom :</label>
+		<br>
+		<input type="text" id="prenom" name="prenom">
+		<br>
+		<br>
+
+		<label for="nom">Votre nom :</label>
+		<br>
+		<input type="text" id="nom" name="nom">
+		<br>
+
+		<p>Etes-vous une/un ?</p>
+		<input type="radio" id="femme" name="genre" value="femme">
+		<label for="femme">Femme</label>
+		<br>
+		<input type="radio" id="homme" name="genre" value="homme">
+		<label for="homme">Homme</label>
+		<br>
+
+		<p>Quels fruits aimez-vous ?</p>
+		<input type="checkbox" id="fruit1" name="fruit1" value="pomme">
+		<label for="fruit1">Pomme</label><br>
+		<input type="checkbox" id="fruit2" name="fruit2" value="poire">
+		<label for="fruit2">Poire</label><br>
+		<input type="checkbox" id="fruit3" name="fruit3" value="pêche">
+		<label for="fruit3">Pêche</label><br>
+
+		<br>
+		<input type="submit" value="Valider mon inscription">
+	</form>
+
+</body>
+</html>

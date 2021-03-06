@@ -12,7 +12,7 @@
    </li>
   <li>Cours PHP</li>
   <ul>
-      <li>Exercices d'initiation : <a href="https://github.com/Alexandre333/cours/blob/main/php/exercices_generaux.php">exercices_generaux.php</a> et le corrigé</li>
+      <li>Exercices d'initiation : <a href="https://github.com/Alexandre333/cours/blob/main/php/exercices_generaux.php">exercices_generaux.php</a> et le <a href="https://github.com/Alexandre333/cours/blob/main/php/exercices_generaux_corriges.php">corrigé</a></li>
       <li>Exemples de code pour le formulaire GET et POST : <a href="https://github.com/Alexandre333/cours/blob/main/php/formulaire.php">formulaire.php</a> et <a href="https://github.com/Alexandre333/cours/blob/main/php/traitement_form.php">traitement_form.php</a></li>
     <li>Travaux pratiques : voici <a href="https://github.com/Alexandre333/cours/blob/main/php/tp_enonce.html">l'énoncé</a> et le corrigé</li>
     </ul>

@@ -1,6 +1,6 @@
 <h1>Sommaire</h1>
   
-<p>Pour récupérer les fichiers, téléchargez l'ensemble en <a href="https://github.com/Alexandre333/cours">zippé</a> (Code > Download ZIP)</p>
+<p>Pour récupérer l'ensemble des fichiers, téléchargez en <a href="https://github.com/Alexandre333/cours">zippé</a> (Code > Download ZIP)</p>
 
 <ul>
   <li>

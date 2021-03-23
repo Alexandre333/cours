@@ -20,5 +20,5 @@
 
 <h2>Cours WordPress avancé</h2>
 <ul>
-      <li>Thème de base utilisé pour illustrer le cours : <a href="">Thème "wpcours"</a></li>
+      <li>Thème de base utilisé pour illustrer le cours : <a href="https://github.com/Alexandre333/cours/tree/main/wordpress/wpcours">Thème "wpcours"</a></li>
 </ul>

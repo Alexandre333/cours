@@ -1,0 +1,65 @@
+body{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "arial";
+}
+
+h1{
+	color: blue;
+}
+
+h2{
+	color:orange;
+	font-size: 20px;
+}
+
+h3{
+	font-size: 15px;
+}
+
+img{
+	width: 500px;
+	border: 2px red solid;
+}
+
+#titre-origines{
+	color: red;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+form{
+	background-color: beige;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+input[type=submit]{
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+	color: white;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+input[type=submit]:hover{
+	cursor: pointer;
+}

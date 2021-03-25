@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Le titre de ma page</title>
+</head>
+
+<body>
+
+	<h1>Mon titre super important</h1>
+
+	<h2>Mon sous-titre</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed justo arcu. Nunc sem urna, consequat viverra consectetur quis, laoreet nec tellus. Ut non euismod ante. Cras a lorem turpis.</p>
+
+	<h2 id="titre-origines">Les origines du latin</h2>
+
+	<h3>Des racines grecques</h3>
+	<p>Nulla pulvinar ligula eu quam lobortis, at aliquam sapien dignissim. Nam feugiat aliquet lectus fermentum malesuada.</p>
+
+	<h3>Utilisation lors de la rome antique</h3>
+	<p>Ut luctus ornare purus eu efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent odio enim, suscipit eu dignissim vehicula, fringilla ut ligula.</p>
+
+	<h2>Les images</h2>
+
+	<h3>Une image avec un lien relatif</h3>
+	<img src="pompei.jpg" alt="Une vue d'ensemble de la ville de Pompei">
+
+	<h3>Une image avec un lien absolu</h3>
+	<img src="https://media.lauraenvoyage.fr/wp-content/uploads/2020/05/visite-pompei.jpg" alt="Une photo d'une rue de Pompei">
+
+	<h2>Les liens</h2>
+
+	<p><a href="https://www.google.fr/" target="_blank">Un lien vers google</a></p>
+
+	<p><a href="#titre-origines">Un lien ancre vers le deuxième titre de la page</a></p>
+
+	<h2>Les listes</h2>
+
+	<h3>Les listes ordonnées</h3>
+	<ol>
+		<li>Mon premier élément</li>
+		<li>Mon deuxième élément</li>
+		<li>Mon troisième élément</li>
+	</ol>
+
+	<h3>Les listes non ordonnées</h3>
+	<ul>
+		<li>Mon premier élément</li>
+		<li>Mon deuxième élément</li>
+		<li>Mon troisième élément</li>
+	</ul>
+
+	<h2>Les tableaux</h2>
+
+	<table border="1">
+		<tr>
+			<th>Nom</th>
+			<th>Couleur</th>
+			<th>Marque</th>
+		</tr>
+
+		<tr>
+			<td>Iphone 11</td>
+			<td>Noir</td>
+			<td>Apple</td>
+		</tr>
+
+		<tr>
+			<td>Iphone X</td>
+			<td>Gris Sidéral</td>
+			<td>Apple</td>
+		</tr>
+
+		<tr>
+			<td>Redmi Note 7</td>
+			<td>Noir</td>
+			<td>Xiaomi</td>
+		</tr>
+
+		<tr>
+			<td>Mate 20</td>
+			<td>Noir</td>
+			<td>Huawei</td>
+		</tr>
+	</table>
+
+	<h2>Les formulaires</h2>
+
+	<form action="../vers/script/traitement" method="POST">
+		<label for="nom">Votre nom :</label>
+		<br>
+		<input type="text" id="nom" name="nom" placeholder="Renseignez votre nom ici">
+		<br>
+		
+		<label for="prenom">Votre prénom :</label>
+		<br>
+		<input type="text" id="prenom" name="prenom" autofocus>
+		<br>
+
+		<label for="mdp">Votre mot de passe :</label>
+		<br>
+		<input type="password" id="mdp" name="mdp"required >
+		<br>
+
+		<p>Etes-vous une/un ?</p>
+		<input type="radio" id="femme" name="genre" value="femme">
+		<label for="femme">Femme</label>
+		<br>
+		<input type="radio" id="homme" name="genre" value="homme">
+		<label for="homme">Homme</label>
+		<br>
+
+		<p>Quels fruits aimez-vous ?</p>
+		<input type="checkbox" id="fruit1" name="fruit1" value="pomme">
+		<label for="fruit1">Pomme</label><br>
+		<input type="checkbox" id="fruit2" name="fruit2" value="poire">
+		<label for="fruit2">Poire</label><br>
+		<input type="checkbox" id="fruit3" name="fruit3" value="pêche">
+		<label for="fruit3">Pêche</label><br>
+
+		<br>
+
+		<label for="avis">Avez-vous un avis ?</label>
+		<br>
+		<textarea id="avis" name="avis" rows="4" cols="50">J'adore le HTML, c'est trop cool !...</textarea>
+		<br>
+
+		<input type="submit" value="Envoyer mes réponses">
+	</form>
+</body>
+</html>

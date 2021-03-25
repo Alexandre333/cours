@@ -2,6 +2,10 @@
   
 <p>Pour récupérer l'ensemble des fichiers, téléchargez en <a href="https://github.com/Alexandre333/cours">zippé</a> (Code > Download ZIP)</p>
 
+<h2>Cours HTML</h2>
+<ul>
+  <li>Exercice 1 : <a href="https://github.com/Alexandre333/cours/blob/main/html/Exercice%201%20-%20HTML.pdf">voici l'énnoncé</a> et la <a href="https://github.com/Alexandre333/cours/blob/main/html/gateau.jpg">photo</a> et la <a href="https://github.com/Alexandre333/cours/blob/main/html/exercice_1_solution.html">solution</a></li>
+</ul>
 
 <h2>Rafraîchissement HTML (préambule cours PHP)</h2>
 <ul>

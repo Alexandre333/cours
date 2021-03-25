@@ -6,6 +6,7 @@
 <ul>
    <li>Exemple de la page HTML de présentation : <a href="https://github.com/Alexandre333/cours/blob/main/html/index.html">index.html</a></li>
   <li>Exercice 1 : voici <a href="https://github.com/Alexandre333/cours/blob/main/html/Exercice%201%20-%20HTML.pdf">l'énnoncé</a> et la <a href="https://github.com/Alexandre333/cours/blob/main/html/gateau.jpg">photo</a> et la <a href="https://github.com/Alexandre333/cours/blob/main/html/exercice_1_solution.html">solution</a></li>
+   <li>Exemple avec du CSS appliqué : le CSS se trouve dans le fichier <a href="https://github.com/Alexandre333/cours/blob/main/html/style.css">style.css</a> et il faut décommenter la ligne 6 du fichier <a href="https://github.com/Alexandre333/cours/blob/main/html/index.html">index.html</a> pour que ça fasse effet.</li>
 </ul>
 
 <h2>Rafraîchissement HTML (préambule cours PHP)</h2>

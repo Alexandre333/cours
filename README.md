@@ -12,8 +12,8 @@
 
 <h2>Rafraîchissement HTML (préambule cours PHP)</h2>
 <ul>
-  <li>Exemple d'une page web : <a href="https://github.com/Alexandre333/cours/blob/main/html/chats.html">chats.html</a> avec la photo du <a href="https://github.com/Alexandre333/cours/blob/main/html/cyprus_cat.jpg">chat</a></li>
-  <li>Exemple d'un formulaire :  <a href="https://github.com/Alexandre333/cours/blob/main/html/exemple_form.html">exemple_form.html</a></li>
+  <li>Exemple d'une page web : <a href="https://github.com/Alexandre333/cours/blob/main/html/rafraichissement/chats.html">chats.html</a> avec la photo du <a href="https://github.com/Alexandre333/cours/blob/main/html/rafraichissement/cyprus_cat.jpg">chat</a></li>
+  <li>Exemple d'un formulaire :  <a href="https://github.com/Alexandre333/cours/blob/main/html/rafraichissement/exemple_form.html">exemple_form.html</a></li>
 </ul>
 
 <h2>Cours PHP</h2>

@@ -9,7 +9,7 @@
    <li>Exercice 2 : </li>
    <li>Exemple avec du CSS appliqué : le CSS se trouve dans le fichier <a href="https://github.com/Alexandre333/cours/blob/main/html/style.css">style.css</a> et il faut décommenter la ligne 6 du fichier <a href="https://github.com/Alexandre333/cours/blob/main/html/index.html">index.html</a> pour que ça prenne effet.</li>
    <li>Exemple avec Bootstrap : Voici le fichier avec les classes <a href="https://github.com/Alexandre333/cours/blob/main/html/index_bootstrap.html">index_bootstrap.html</a></li>
-   <li>Exercice 4 : </li>
+   <li>Exercice 4 : En cours de finalisation </li>
 </ul>
 
 <h2>Rafraîchissement HTML (préambule cours PHP)</h2>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercice 2 solution</title>
+</head>
+<body>
+
+	<h2>Inscription au site</h2>
+
+	<form action="../vers/script/traitement" method="POST">
+		<label for="nom">Votre nom :</label>
+		<br>
+		<input type="text" id="nom" name="nom" placeholder="Renseignez votre nom ici">
+		<br>
+		<br>
+
+		<label for="prenom">Votre prénom :</label>
+		<br>
+		<input type="text" id="prenom" name="prenom" placeholder="Renseignez votre prénom ici">
+		<br>
+		<br>
+
+		<label for="email">Votre email :</label>
+		<br>
+		<input type="text" id="email" name="email" required="required">
+		<br>
+		<br>
+
+		<label for="mdp">Votre mot de passe :</label>
+		<br>
+		<input type="password" id="mdp" name="mdp" required="required">
+		<br>
+		<br>
+
+		<label for="naissance">Votre date de naissance :</label>
+		<br>
+		<input type="date" id="naissance" name="naissance">
+		<br>
+		<br>
+
+		<p>Etes-vous une/un ?</p>
+		<input type="radio" id="femme" name="genre" value="femme">
+		<label for="femme">Femme</label>
+		<br>
+		<input type="radio" id="homme" name="genre" value="homme">
+		<label for="homme">Homme</label>
+		<br>
+		<br>
+
+		<p>Quelle est votre ville préférée ?</p>
+		<input type="radio" id="paris" name="ville" value="paris">
+		<label for="paris">Paris</label>
+		<br>
+		<input type="radio" id="newyork" name="ville" value="newyork">
+		<label for="newyork">New York</label>
+		<br>
+		<input type="radio" id="bagnolet" name="ville" value="bagnolet">
+		<label for="bagnolet">Bagnolet</label>
+		<br>
+		<input type="radio" id="seoul" name="ville" value="seoul">
+		<label for="seoul">Séoul</label>
+		<br>
+		<input type="radio" id="barcelone" name="ville" value="barcelone">
+		<label for="barcelone">Barcelone</label>
+		<br>
+		<br>
+		
+		<p>Quelles catégories de vidéos regardez-vous ?</p>
+		<input type="checkbox" id="cat1" name="cat1" value="jeuxvideo">
+		<label for="cat1">Jeux vidéo</label>
+		<br>
+		<input type="checkbox" id="cat2" name="cat2" value="sport">
+		<label for="cat2">Sport</label>
+		<br>
+		<input type="checkbox" id="cat3" name="cat3" value="musique">
+		<label for="cat3">Musique</label>
+		<br>
+		<input type="checkbox" id="cat4" name="cat4" value="humour">
+		<label for="cat4">Humour</label>
+		<br>
+		<input type="checkbox" id="cat5" name="cat5" value="education">
+		<label for="cat5">Education</label>
+		<br>
+		<input type="checkbox" id="cat6" name="cat6" value="politique">
+		<label for="cat6">Politique</label>
+		<br>
+	
+		<br>
+
+		<input type="submit" value="Finaliser mon inscription">
+	</form>
+	
+</body>
+</html>

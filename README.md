@@ -2,7 +2,7 @@
   
 <p>Pour récupérer l'ensemble des fichiers, téléchargez en <a href="https://github.com/Alexandre333/cours">zippé</a> (Code > Download ZIP)</p>
 
-<h2>Cours HTML</h2>
+<h2>Cours HTML/CSS</h2>
 <ul>
    <li>Exemple de la page HTML de présentation : <a href="https://github.com/Alexandre333/cours/blob/main/html/index.html">index.html</a></li>
    <li>Exercice 1 : voici <a href="https://github.com/Alexandre333/cours/blob/main/html/Exercice%201%20-%20HTML.pdf">l'énnoncé</a> et la <a href="https://github.com/Alexandre333/cours/blob/main/html/gateau.jpg">photo</a> et la <a href="https://github.com/Alexandre333/cours/blob/main/html/exercice_1_solution.html">solution</a></li>

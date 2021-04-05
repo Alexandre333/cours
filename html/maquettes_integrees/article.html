@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<title>Un article</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style_blog.css">
+	
+</head>
+<body>
+
+<header>
+	<div class="logo">
+		<a href="all_articles.html"><img src="img/logo.png"></a>
+
+		<ul id='menu'>
+			<li><a href="all_articles.html">Accueil</a></li>
+			<li><a href="article.html">Blog</a></li>
+		</ul>
+	</div>
+</header>
+
+<div class="header_article_img" style="background-image: url('img/article_couv.png');">
+</div>
+
+<div class="row_blog">
+	<div class="leftcolumn">
+		<a href="all_articles.html" style="color: #735486; font-size: 17px;">← Retourner à tous les articles</a>
+
+	    <div class="card article_card">
+		    <h1>Lorem Ipsum</h1>
+		    <h4>Publié le 01 janvier 2021 par Alex</h4>
+
+		    <h2>Sed gravida pharetra turpis</h2>
+		    <h3>Fusce vel dictum tellus</h3>		    
+		    <p>
+		    	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida libero at dolor feugiat elementum. Fusce vel dictum tellus. Aenean at semper dui, vitae blandit ante. Sed efficitur sem sed nunc euismod, vitae efficitur tortor ullamcorper. Proin lobortis risus quis faucibus luctus. Nulla facilisi. Maecenas porttitor tortor ac ante tincidunt, at dignissim tellus facilisis. Sed <a href="#">id dapibus nisl</a>, vel congue augue.
+		    </p>
+
+		    <div class="img_article">
+				<img src="img/blog_cover.png" alt="test alt 1">
+				<p class="description_img_article">test description</p>
+			</div>
+
+		    <h3>Nunc vel egestas magna</h3>
+
+		    <p>
+		    	In dapibus posuere metus a maximus. In laoreet mattis leo, id posuere libero volutpat eu. Mauris elementum placerat magna ac vehicula. Mauris congue, velit ac ultrices rhoncus, mauris risus porttitor magna.
+		    </p>
+
+		    <div class="article_citation">
+				<p>"Mauris congue, velit ac ultrices rhoncus"</p>
+			</div>
+
+		    <p>
+		    	Quis maximus eros mi vitae erat. Integer cursus condimentum commodo. Ut vitae fringilla risus. Vestibulum vitae pulvinar nunc. Duis ipsum ligula, laoreet nec bibendum vitae, imperdiet ut libero.
+		    </p>
+
+	    </div>
+	    <br>
+	    <hr>
+
+	    <h2 class="commentaires_h2">Commentaires</h2>
+	    <div class="comment_section">
+		    <div class="comments">
+		    	<div class="comment">
+					<div class="media">
+						<img class="img_user_comment" src="img/user_profile.png" alt="Profil d'utilisateur">
+					</div>
+
+					<div class="right_content">
+			    		<p class="info">Nom, le 26 mars 2021</p>
+			    		<p class="content">Le commentaire lorem ipsum</p>
+			    	</div>
+			    </div>
+
+				<div class="response">
+					<div class="media">
+						<img class="img_user_comment" src="img/user_profile.png" alt="Profil d'utilisateur">
+					</div>
+
+					<div class="right_content">
+						<p class="info">Nom, le 26 mars 2021</p>
+						<p class="content">Le commentaire lorem ipsum</p>
+		    		</div>
+		    	</div>
+
+		    	<div class="comment">
+					<div class="media">
+						<img class="img_user_comment" src="img/user_profile.png" alt="Profil d'utilisateur">
+					</div>
+
+					<div class="right_content">
+			    		<p class="info">Nom, le 26 mars 2021</p>
+			    		<p class="content">Autre  commentaire lorem ipsum</p>
+			    	</div>
+			    </div>
+			</div>
+	    </div>
+	    <h3 class="h3_comment" id="section_comment">Donnez votre avis sur cet article</h3>
+
+	    <form action="#" class="commentaire_form" method="post">
+	    	
+	    	<label for="id_name">Votre prénom :</label>
+	    	<input type="text" name="name" maxlength="80" required id="id_name">
+			
+			<label for="id_content">Votre message :</label>
+			<textarea name="content" cols="40" rows="10" required id="id_content"></textarea>
+
+	    	
+	    	<input type="submit" name="" value="Envoyer">
+	    </form>	    
+	</div>
+
+	<div class="rightcolumn">
+
+	    <div class="card">
+	      	<h3>Articles populaires</h3>
+	      
+	    	<p>
+	    		<a href="#">Feugiat elementum ?</a>
+	    	</p>
+		    <hr>
+
+		    <p>
+	    		<a href="#">Lorem Ipsum</a>
+	    	</p>
+		    <hr>
+
+		    <p>
+	    		<a href="#">Nulla facilisi velit ac ultrices rhoncus</a>
+	    	</p>
+	    </div>
+
+	    <div class="card">
+	      	<h3>A propros de ce blog</h3>
+	      
+	    	<p>
+	    		In faucibus viverra nisi at tincidunt. Ut at ullamcorper elit. Mauris ipsum felis, sollicitudin vitae libero sit amet, auctor dapibus ligula.
+	    	</p>
+	    	<p>
+	    		Pellentesque varius risus non purus semper, vel laoreet purus lobortis. Sed nisi purus, tempor sed convallis sed, pellentesque non eros. Pellentesque malesuada erat justo, a rhoncus nisl condimentum vitae.
+	    	</p>
+	    </div>
+	</div>
+</div>
+
+<footer>
+	<p>Mon blog génial © 2021 - <a href="#" target="_blank">Mentions légales</a></p>
+</footer>
+
+</body>
+</html>

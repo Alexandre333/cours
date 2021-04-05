@@ -10,7 +10,7 @@
    <li>Exemple avec du CSS appliqué : le CSS se trouve dans le fichier <a href="https://github.com/Alexandre333/cours/blob/main/html/style.css">style.css</a> et il faut décommenter la ligne 6 du fichier <a href="https://github.com/Alexandre333/cours/blob/main/html/index.html">index.html</a> pour que ça prenne effet.</li>
    <li>Exemple avec Bootstrap : Voici le fichier avec les classes <a href="https://github.com/Alexandre333/cours/blob/main/html/index_bootstrap.html">index_bootstrap.html</a></li>
    <li>Exemple de flexbox : voici le fichier <a href="https://github.com/Alexandre333/cours/blob/main/html/flexbox.html">"flexbox.html"</a></li>
-   <li>Exercice 4 : En cours de finalisation </li>
+   <li>Exercice 4 : Maquettes de la <a href="https://github.com/Alexandre333/cours/blob/main/html/Maquette%201%20-%20accueil%20du%20blog.pdf">page du blog</a> et de la <a href="https://github.com/Alexandre333/cours/blob/main/html/Maquette%202%20-%20article%20de%20blog.pdf">page d'article</a> à intégrer. Et voici la <a href="https://github.com/Alexandre333/cours/tree/main/html/maquettes_integrees">solution proposée</a></li>
 </ul>
 
 <h2>Rafraîchissement HTML (préambule cours PHP)</h2>

@@ -32,3 +32,8 @@
 <ul>
       <li>Thème de base utilisé pour illustrer le cours : <a href="https://github.com/Alexandre333/cours/tree/main/wordpress/wpcours">Thème "wpcours"</a></li>
 </ul>
+
+<h2>Cours JavaScript</h2>
+<ul>
+      <li>Prochainement sur vos écrans...</li>
+</ul>

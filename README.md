@@ -21,7 +21,6 @@
 
 <h2>Cours PHP</h2>
 <ul>
-  
       <li>Exemples de code PHP des slides : </li>
       <li>Exercices d'initiation : <a href="https://github.com/Alexandre333/cours/blob/main/php/exercices_generaux.php">exercices_generaux.php</a> et le <a href="https://github.com/Alexandre333/cours/blob/main/php/exercices_generaux_corriges.php">corrigé</a></li>
       <li>Exemples de code pour le formulaire GET et POST : <a href="https://github.com/Alexandre333/cours/blob/main/php/formulaire.php">formulaire.php</a> et <a href="https://github.com/Alexandre333/cours/blob/main/php/traitement_form.php">traitement_form.php</a></li>

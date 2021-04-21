@@ -50,7 +50,7 @@
 
 	$fruits = array('papaye', 'mangue', 'litchi', 'kaki', 'avocat');
 
-	echo $fruits[3];
+	echo $fruits[2];
 
 	// Exercice 6 :
 	/* Compléter la fonction qui permet de convertir

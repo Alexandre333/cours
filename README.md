@@ -36,9 +36,9 @@
 
 <h2>Cours JavaScript</h2>
 <ul>
-      <li>Exemples de code JS : voici le HTML index.html et son script pour le général script_general.js et son script pour les événements script_evenements.js</li>
-      <li>Série d'exercices : voici le fichier comportant les exercices exercices_generaux_js.html et voici son corrigé exercices_generaux_js_corriges.html</li>
-      <li>TP1 : voici le fichier avec la structure de base de l'exercice tp_1_spoile.html et voici son corrigé avec le script script_tp1.js</li>
-      <li>Exemples de code jQuery : voici le HTML exemple_librairie_jquery.html et voici son script script_jquery.js</li>
-      <li>TP2 : Voici les fichiers corrigés tp_2_form.html et script_tp2.js</li>
+  <li>Exemples de code JS : voici le HTML <a href="https://github.com/Alexandre333/cours/blob/main/js/index.html">index.html</a> et son script pour le général <a href="https://github.com/Alexandre333/cours/blob/main/js/script_general.js">script_general.js</a> et son script pour les événements <a href="https://github.com/Alexandre333/cours/blob/main/js/script_evenements.js">script_evenements.js</a></li>
+      <li>Série d'exercices : voici le fichier comportant les exercices <a href="https://github.com/Alexandre333/cours/blob/main/js/exercices_generaux_js.html">exercices_generaux_js.html</a> et voici son corrigé <a href="https://github.com/Alexandre333/cours/blob/main/js/exercices_generaux_js_corriges.html">exercices_generaux_js_corriges.html</a></li>
+  <li>TP1 : voici le fichier avec la structure de base du TP <a href="https://github.com/Alexandre333/cours/blob/main/js/tp_1_spoile.html">tp_1_spoile.html</a> et voici son corrigé avec le script <a href="https://github.com/Alexandre333/cours/blob/main/js/script_tp1.js">script_tp1.js</a></li>
+  <li>Exemples de code jQuery : voici le HTML <a href="https://github.com/Alexandre333/cours/blob/main/js/exemple_librairie_jquery.html">exemple_librairie_jquery.html</a> et voici son script <a href="https://github.com/Alexandre333/cours/blob/main/js/script_jquery.js">script_jquery.js</a></li>
+  <li>TP2 : Voici les fichiers corrigés <a href="https://github.com/Alexandre333/cours/blob/main/js/tp_2_form.html">tp_2_form.html</a> et <a href="https://github.com/Alexandre333/cours/blob/main/js/script_tp2.js">script_tp2.js</a></li>
 </ul>

@@ -36,5 +36,9 @@
 
 <h2>Cours JavaScript</h2>
 <ul>
-      <li>Prochainement sur vos écrans...</li>
+      <li>Exemples de code JS : voici le HTML index.html et son script pour le général script_general.js et son script pour les événements script_evenements.js</li>
+      <li>Série d'exercices : voici le fichier comportant les exercices exercices_generaux_js.html et voici son corrigé exercices_generaux_js_corriges.html</li>
+      <li>TP1 : voici le fichier avec la structure de base de l'exercice tp_1_spoile.html et voici son corrigé avec le script script_tp1.js</li>
+      <li>Exemples de code jQuery : voici le HTML exemple_librairie_jquery.html et voici son script script_jquery.js</li>
+      <li>TP2 : Voici les fichiers corrigés tp_2_form.html et script_tp2.js</li>
 </ul>

@@ -13,6 +13,12 @@
    <li>Exercice 4 : Maquettes de la <a href="https://github.com/Alexandre333/cours/blob/main/html/Maquette%201%20-%20accueil%20du%20blog.pdf">page du blog</a> et de la <a href="https://github.com/Alexandre333/cours/blob/main/html/Maquette%202%20-%20article%20de%20blog.pdf">page d'article</a> à intégrer. Et voici la <a href="https://github.com/Alexandre333/cours/tree/main/html/maquettes_integrees">solution proposée</a></li>
 </ul>
 
+<h2>Rafraîchissement HTML (préambule cours PHP)</h2>
+<ul>
+  <li>Exemple d'une page web : <a href="https://github.com/Alexandre333/cours/blob/main/html/rafraichissement/chats.html">chats.html</a> avec la photo du <a href="https://github.com/Alexandre333/cours/blob/main/html/rafraichissement/cyprus_cat.jpg">chat</a></li>
+  <li>Exemple d'un formulaire :  <a href="https://github.com/Alexandre333/cours/blob/main/html/rafraichissement/exemple_form.html">exemple_form.html</a></li>
+</ul>
+
 <h2>Cours Bootstrap</h2>
 <ul>
   <li></li>
@@ -26,12 +32,6 @@
   <li>TP1 : voici le fichier avec la structure de base du TP <a href="https://github.com/Alexandre333/cours/blob/main/js/tp_1_spoile.html">tp_1_spoile.html</a> et voici son corrigé avec le script <a href="https://github.com/Alexandre333/cours/blob/main/js/script_tp1.js">script_tp1.js</a></li>
   <li>Exemples de code jQuery : voici le HTML <a href="https://github.com/Alexandre333/cours/blob/main/js/exemple_librairie_jquery.html">exemple_librairie_jquery.html</a> et voici son script <a href="https://github.com/Alexandre333/cours/blob/main/js/script_jquery.js">script_jquery.js</a></li>
   <li>TP2 : Voici les fichiers corrigés <a href="https://github.com/Alexandre333/cours/blob/main/js/tp_2_form.html">tp_2_form.html</a> et <a href="https://github.com/Alexandre333/cours/blob/main/js/script_tp2.js">script_tp2.js</a></li>
-</ul>
-
-<h2>Rafraîchissement HTML (préambule cours PHP)</h2>
-<ul>
-  <li>Exemple d'une page web : <a href="https://github.com/Alexandre333/cours/blob/main/html/rafraichissement/chats.html">chats.html</a> avec la photo du <a href="https://github.com/Alexandre333/cours/blob/main/html/rafraichissement/cyprus_cat.jpg">chat</a></li>
-  <li>Exemple d'un formulaire :  <a href="https://github.com/Alexandre333/cours/blob/main/html/rafraichissement/exemple_form.html">exemple_form.html</a></li>
 </ul>
 
 <h2>Cours PHP</h2>

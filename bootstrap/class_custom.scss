@@ -1,0 +1,24 @@
+$multiplicateur: 1.5;
+
+.marges_ext_1{
+	margin: 20px;
+}
+
+.marges_ext_2{
+	margin: 20px * $multiplicateur;
+}
+
+.marges_int_1{
+	padding: 20px;
+}
+
+.marges_int_2{
+	padding: 20px * $multiplicateur;
+}
+
+// Utilisation de la boucle en reproduisant les class de Bootstrap
+@for $i from 1 through 5{
+	.m-#{$i}{
+		margin: $i*0.25rem;
+	}
+}

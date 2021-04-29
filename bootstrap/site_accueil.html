@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Le site pour se former !</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Form'Acat'</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="site_accueil.html">Accueil</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="site_formation.html">Les formations</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">L'équipe</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">A propos</a>
+				</li>
+			</ul>		    
+		</div>
+	</nav>
+
+	<div class="container">
+		<h1 class="text-center text-primary mb-4 mt-4">LE site pour se former !</h1>
+		<blockquote class="blockquote text-center">
+			<p class="mb-0 text-success">Pour réussir, travailler dur, ne jamais abandonner et surtout chérir une obsession magnifique.</p>
+			<footer class="blockquote-footer">Walt Disney</footer>
+		</blockquote>
+
+		<h2 class="mt-5 text-secondary">Un taux de réussite élevé</h2>
+		<div class="row">
+			<div class="col-lg-8 bg-light">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <mark>Nam posuere libero</mark> at odio accumsan, eget efficitur massa auctor. Aenean hendrerit finibus augue sed imperdiet. Praesent accumsan tellus vel metus suscipit vestibulum. Fusce blandit turpis id finibus consectetur. Nam placerat orci vitae odio accumsan accumsan. Ut a orci sit amet lacus blandit pulvinar. Nunc non viverra enim, vel aliquam eros. Nam vel ipsum ut leo venenatis semper. Sed ultrices semper odio et consequat. Cras sed venenatis elit. Praesent ac sem eu urna malesuada imperdiet. Duis sollicitudin vitae nibh vel scelerisque. Curabitur accumsan mi porta quam interdum, nec porta lacus blandit.</p>
+			</div>
+			<div class="col-lg-4">
+				<img src="https://sc.mogicons.com/share/thumbs-up-192.jpg" class="img-fluid img-thumbnail">
+			</div>
+		</div>
+
+		<br>
+
+		<h2 class="mt-3 text-secondary">Des formations adaptées pour tout niveau</h2>
+
+		<table class="table table-striped">
+		    <tr>
+		      <th>Formation</th>
+		      <th>Difficulté</th>
+		      <th>Nombre de places</th>
+		    </tr>
+		    <tr>
+		      <td>HTML/CSS</td>
+		      <td>Débutant</td>
+		      <td>21</td>
+		    </tr>
+		    <tr>
+		      <td>JavaScript</td>
+		      <td>Débutant</td>
+		      <td>21</td>
+		    </tr>
+		    <tr>
+		      <td>PHP</td>
+		      <td>Intermédiaire</td>
+		      <td>12</td>
+		    </tr>
+		    <tr>
+		      <td>Python</td>
+		      <td>Intermédiaire</td>
+		      <td>15</td>
+		    </tr>
+		    <tr>
+		      <td>C++</td>
+		      <td>Difficile</td>
+		      <td>5</td>
+		    </tr>
+		</table>
+
+		<div class="row mt-5">
+			<div class="col-lg-6 border border-success p-3">
+				<ul class="list-group">
+					<li class="list-group-item">Notre numéro : 01 02 03 04 05</li>
+					<li class="list-group-item">Notre email : superformation@gmail.com</li>
+					<li class="list-group-item">Formations 100% diplomantes</li>
+					<li class="list-group-item">Financez votre formation !</li>
+				</ul>
+			</div>
+			<div class="col-lg-6 border border-primary p-3">
+				<h2 class="text-info">Demandez votre brochure !</h2>
+				<form>
+					<div class="form-group">
+						<label for="id_prenom">Votre prénom :</label>
+						<input type="text" class="form-control" id="id_prenom">
+					</div>
+
+					<div class="form-group">
+						<label for="id_email">Votre email :</label>
+						<input type="email" class="form-control" id="id_email">
+					</div>
+
+					<div class="form-check">
+						<input type="checkbox" class="form-check-input" id="id_newsletter">
+						<label class="form-check-label" for="id_newsletter">Cochez pour recevoir aussi la newsletter</label>
+					</div>
+					<br>
+					<input type="submit" class="btn btn-primary" value="Recevoir la brochure">
+				</form>
+			</div>
+		</div>
+		<br>
+		<h2>Quelques avis</h2>
+		<div id="accordion">
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h5 class="mb-0">
+					<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					Avis 1
+					</button>
+					</h5>
+				</div>
+
+				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+					<div class="card-body">
+		        		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel rutrum nulla, quis luctus felis. Nulla tempor diam id pulvinar rhoncus. Curabitur elementum commodo erat, nec facilisis eros placerat at. Vivamus sit amet dictum quam, et tincidunt mi. In fermentum est vitae fringilla euismod. 
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingTwo">
+					<h5 class="mb-0">
+						<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						Avis 2
+					</button>
+					</h5>
+				</div>
+				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+					<div class="card-body">
+						Suspendisse vestibulum velit sed sagittis aliquet. Aenean at blandit nunc. Duis vehicula tincidunt lacus, ut sodales elit convallis non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed ultricies, tellus eu sodales rutrum, urna sem aliquam elit, eu commodo felis nibh in dolor. Sed vitae elit nunc. Integer et congue risus.
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingThree">
+					<h5 class="mb-0">
+						<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						Avis 3
+						</button>
+					</h5>
+				</div>
+				<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					<div class="card-body">
+		        		Donec nec convallis eros, ut ornare dolor. Sed elementum imperdiet laoreet. Aliquam dictum commodo neque a pellentesque. Aliquam et ex lorem. 
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+	</div>	
+	<footer class="bg-secondary p-2 mt-5">
+		<p class="text-center text-white mb-0">From'Act' © 2021</p>
+	</footer>
+</body>
+</html>

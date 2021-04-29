@@ -1,0 +1,39 @@
+// Importation fichier externe
+@import "class_custom.scss";
+
+// Déclaration de la variable
+$variable_couleur: red;
+
+h1{	
+	// Utilisation de la variable
+	color: $variable_couleur;
+}
+
+p{
+	color: $variable_couleur;
+}
+
+.other{
+	// Utilisation de la fonction random()
+	color : rgb(random(255), random(255), random(255));
+}
+
+// Imbrication multiple
+form{
+	label{
+		font-size: 30px;
+	}
+
+	input{
+		width: 50%;
+	}
+
+	input[type=submit]{
+		height: 50px;
+		width: 20%;
+
+		&:hover{
+			background-color: red;
+		}
+	}
+}

@@ -21,8 +21,8 @@
 
 <h2>Cours Bootstrap</h2>
 <ul>
-  <li></li>
-  <li></li>
+  <li>Exemple de pages utilisant du Bootstrap : voici la page d'accueil <a href="https://github.com/Alexandre333/cours/blob/main/bootstrap/site_accueil.html">site_accueil.html</a> et la deuxième page <a href="https://github.com/Alexandre333/cours/blob/main/bootstrap/site_formation.html">site_formation.html</a></li>
+  <li>Exemple de fichiers avec du Sass : voici pour le général <a href="https://github.com/Alexandre333/cours/blob/main/bootstrap/style.scss">style.scss</a> et voici les class supplémentaires <a href="https://github.com/Alexandre333/cours/blob/main/bootstrap/exemple_sass.html">exemple_sass.html</a></li>
 </ul>
       
 <h2>Cours JavaScript</h2>

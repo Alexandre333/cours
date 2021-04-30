@@ -42,7 +42,7 @@
     <li>Travaux pratiques : voici <a href="https://github.com/Alexandre333/cours/blob/main/php/tp_enonce.html">l'énoncé</a> et les corrigés du <a href="https://github.com/Alexandre333/cours/blob/main/php/tp_formulaire.php">formulaire</a> et de <a href="https://github.com/Alexandre333/cours/blob/main/php/tp_traitement.php">traitement</a></li>
     <li>Exemple avec requêtes SQL : <a href="https://github.com/Alexandre333/cours/blob/main/php/exemple_requetes.php">exemples_requetes.php</a></li>
     <li>Exercices avec requêtes SQL : <a href="https://github.com/Alexandre333/cours/blob/main/php/exercices_requetes.php">exercices_requetes.php</a> et le <a href="https://github.com/Alexandre333/cours/blob/main/php/exercices_requetes_corriges.php">corrigé</a></li>
-    <li>Exemple d'utilisation de l'API RESTful : voici la page d'affichage <a href="">apirestful_meteo.php</a> et sa page de traitement <a href="">apirestful_traitement.php</a></li>
+    <li>Exemple d'utilisation de l'API RESTful : voici la page d'affichage <a href="https://github.com/Alexandre333/cours/blob/main/php/apirestful_meteo.php">apirestful_meteo.php</a> et sa page de traitement <a href="https://github.com/Alexandre333/cours/blob/main/php/apirestful_traitement.php">apirestful_traitement.php</a></li>
 </ul>
 
 <h2>Cours WordPress avancé</h2>

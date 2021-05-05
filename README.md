@@ -45,7 +45,7 @@
   <li>Exemple avec les sessions : voici les pages de navigation <a href="https://github.com/Alexandre333/cours/blob/main/php/session_page1.php">session_page1.php</a> et <a href="https://github.com/Alexandre333/cours/blob/main/php/session_page2.php">session_page2.php</a>. Et voici la page de login <a href="https://github.com/Alexandre333/cours/blob/main/php/session_login.php">session_login.php</a> et de logout <a href="https://github.com/Alexandre333/cours/blob/main/php/session_logout.php">session_logout.php</a></li>
     <li>Exemple avec les cookies : voici le fichier qui dépose le cookie <a href="https://github.com/Alexandre333/cours/blob/main/php/cookie_depot.php">cookie_depot.php</a> et voici sa lecture <a href="https://github.com/Alexandre333/cours/blob/main/php/cookie_lecture.php">cookie_lecture.php</a></li>
   <li>Exemple de gestion des fichiers : voici le fichier de traitement <a href="https://github.com/Alexandre333/cours/blob/main/php/file_ecriture.php">file_ecriture.php</a> et le fichier textuel pour le contenu <a href="https://github.com/Alexandre333/cours/blob/main/php/description.txt">description.txt</a></li>
-    <li>TP 2 : -</li>
+    <li>TP 2 : Voici les corrigés avec le formulaire pour l'utilisateur tp_formulaire.php, le traitement/envoi des données à la BDD tp_traitement_bdd.php, la page de connexion au back-office tp_login.php et la page du back-office tp_admin.php</li>
     <li>Exemple d'utilisation de l'API RESTful : voici la page d'affichage <a href="https://github.com/Alexandre333/cours/blob/main/php/apirestful_meteo.php">apirestful_meteo.php</a> et sa page de traitement <a href="https://github.com/Alexandre333/cours/blob/main/php/apirestful_traitement.php">apirestful_traitement.php</a></li>
 </ul>
 

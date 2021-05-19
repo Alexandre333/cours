@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
-	<title>Exercices corrigés SQL</title>
+	<title>Exercices SQL</title>
 </head>
 <body>
 	
@@ -14,7 +14,7 @@
 
 	echo '<h1>Les prénoms les plus donnés en France en 2019</h1>';
 
-	echo '<h2>Exo 1 :</h2>';
+	echo '<h2>Exo 7 :</h2>';
 
 	// Afficher les données dans un tableau avec deux colonnes
 	// Récupération des données
@@ -33,7 +33,7 @@
 		echo "</table>";
 	}
 
-	echo '<h2>Exo 2 :</h2>';
+	echo '<h2>Exo 8 :</h2>';
 	// Afficher toutes les lignes avec une phrase du style :
 	// "Le prénom Gabriel a été donné 5010 fois en 2019."
 	
@@ -45,7 +45,7 @@
     	echo "Le prénom ".utf8_encode($row['prenom'])." a été donné ".$row['nb_naissance']." fois en 2019.<br>";
 	}
 
-	echo '<h2>Exo 3 :</h2>';
+	echo '<h2>Exo 9 :</h2>';
 	// Créer un formulaire pour ajouter un nouveau prénom dans la BDD
 
 ?>
@@ -88,7 +88,7 @@
 
 	}
 
-	echo '<h2>Exo 4 :</h2>';
+	echo '<h2>Exo 10 :</h2>';
 	// Afficher le nombre de prénoms qui ont été donnés plus de 3800 fois 
 
 	$request4 = "SELECT * FROM `prenoms_19` WHERE nb_naissance > 3800";

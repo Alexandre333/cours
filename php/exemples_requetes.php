@@ -13,19 +13,25 @@
 
 	echo '<h2>Exemples avec SELECT</h2>';
 
-  	// Requête pour récupérer tous les titres de notre table
+  	// Constitution de la requête pour récupérer tous les titres de notre table
   	$request = 
   		"SELECT * FROM `titres`";
 
+  	// Exécution de notre requête
     $resultat = mysqli_query($connexion, $request) or die(mysqli_error($connexion));
     
+    // Calcul du nombre de lignes de résultats réçues
     $nb_resultat = mysqli_num_rows($resultat);
     
+    // Si au moins une ligne, alors on affiche les données
 	if($nb_resultat > 0){
 
 		echo "<h3>On affiche tout</h3>";
+		// On récupère les données des colonnes pour chaque ligne de données
 		while ($row=mysqli_fetch_array($resultat)) {
-	    	echo "ID n°".$row['IDTitre']." - La musique '".utf8_encode($row['Nom'])."' a été composée par ".$row['Nom_musicien']." et elle dure ".str_replace(".",":",$row['Duree'])." minutes. <br>";
+	    	echo "ID n°".$row['IDTitre']." - ";
+	    	echo "La musique '".utf8_encode($row['Nom'])."' a été composée par ".$row['Nom_musicien'];
+	    	echo " et elle dure ".str_replace(".",":",$row['Duree'])." minutes. <br>";
 	    }
 	}
 

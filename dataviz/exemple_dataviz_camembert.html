@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- On importe le CSS de NVD3 -->
+    <link href="nv.d3.css" rel="stylesheet" type="text/css">
+    <!-- On importe la librairie D3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
+    <!-- On importe la librairie NVD3 -->
+    <script src="nv.d3.js"></script>
+
+</head>
+<body>
+<h1>Diagramme circulaire</h1>
+
+<h2>Les réseaux sociaux les plus visités chaque jour en France en 2020 (en millions)</h2>
+<p>Source : https://blog.digimind.com/fr/tendances/r%C3%A9seaux-sociaux-france-monde-chiffres-utilisation-2021</p>
+
+<!-- On crée une balise SVG pour accueillir notre visualisation -->
+<svg id="datavizRS"></svg>
+
+<script>
+	// On définit les différentes clés avec leur valeur
+    var dataRS = [
+        {label: "Facebook", value: 25.1},
+        {label: "Snapchat", value: 16.3},
+        {label: "WhatsApp", value: 14.7},
+        {label: "Instagram", value: 14.4},
+        {label: "Messenger", value: 12.3},
+        {label: "TikTok", value: 5.5},
+        {label: "Twitter", value: 5.1},
+        {label: "LinkedIn", value: 3.5}
+    ];
+
+    // On définit la largeur et la hauteur de notre visualisation
+    var width = 700;
+    var height = 500;
+
+    // On utilise la fonction de NVD3 pour créer notre visualisation avec des paramètres
+    nv.addGraph(function() {
+        var chart = nv.models.pieChart()
+            .x(function(d) { return d.label }) // La clé
+            .y(function(d) { return d.value }) // La valeur de la clé
+            .width(width) // La largeur de notre visualisation
+            .height(height) // La hauteur de notre visualisation
+            .showTooltipPercent(true) // Si on veut afficher le pourcentage lors du survol
+            .donut(true) // Si on veut que la visualisation soit personnalisé
+            .donutRatio(0.25); // Si on veut que la visualisation soit personnalisé
+
+        d3.select("#datavizRS") // On sélectionne notre balise SVG
+            .datum(dataRS) // On y envoie nos données
+            .attr('width', width) // La largeur de notre visualisation
+            .attr('height', height) // La hauteur de notre visualisation
+            .call(chart); // On appelle notre visualisation
+
+        return chart;
+    });
+
+</script>
+
+
+<h2>Répartition des utilisateurs Facebook par tranches d'âge en 2019 dans le monde</h2>
+<p>Source : https://www.verticaly.fr/blog/ages-moyens-medias-sociaux/</p>
+
+<svg id="datavizFacebook"></svg>
+
+<script>
+    var dataFacebook = [
+        {label: "13-17", value: 6},
+        {label: "18-24", value: 27},
+        {label: "25-34", value: 32},
+        {label: "35-44", value: 16},
+        {label: "45-54", value: 10},
+        {label: "55-64", value: 6},
+        {label: "65+", value: 4}      
+    ];
+
+    var width2 = 700;
+    var height2 = 500;
+
+    nv.addGraph(function() {
+        var chart = nv.models.pieChart()
+            .x(function(d) { return d.label })
+            .y(function(d) { return d.value })
+            .width(width2)
+            .height(height2)
+            .showTooltipPercent(true);
+
+        d3.select("#datavizFacebook")
+            .datum(dataFacebook)
+            .attr('width', width2)
+            .attr('height', height2)
+            .call(chart);
+
+        return chart;
+    });
+</script>
+</body>
+</html>

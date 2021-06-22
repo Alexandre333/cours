@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- On importe le CSS de NVD3 -->
+    <link href="nv.d3.css" rel="stylesheet" type="text/css">
+    <!-- On importe la librairie D3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
+    <!-- On importe la librairie NVD3 -->
+    <script src="nv.d3.js"></script>
+    <!-- On importe la librairie jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style>
+        html, body, svg {
+            height: 90%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<h1>Datavisualisation en barres</h1>
+
+<h2>Nombre de naissances en Irlande par année de 1911 à 2020</h2>
+<p>Source : https://data.gov.ie/dataset/births-by-year-and-statistic</p>
+
+<!-- On crée une balise SVG pour accueillir notre visualisation -->
+<svg id="datavizNaissance"></svg>
+
+<script>
+$(document).ready(function(){
+    // La fonction getJSON est asynchrone, ce qui causera des décalages dans la récupération des données
+    // On désactive l'asynchrone pour toute notre configuration
+    $.ajaxSetup({
+        async: false
+    });
+
+	// On récupère les données de l'API
+    function getData(){
+        var tab = [];
+
+        // Utilisation des données d'une API publique au format JSON
+        // Fonction asynchrone
+        $.getJSON("https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/VSA17/JSON-stat/1.0/", function(data){
+
+            var debutYear = 1911;
+            var lastYear = 2020;
+            var range = lastYear - debutYear;
+
+            // On insère les données dans un tableau pour NVD3
+            for(var i = 0; i <= range; i++){
+                var x = debutYear;
+                var y = data.dataset.value[i];
+                tab.push({'x':x, 'y':y});
+                debutYear++;
+            }
+        });
+
+        return [
+            {
+                key: "Naissances en Irlande",
+                values: tab // on l'envoie pour notre visualisation
+            }
+        ]
+    }
+
+    // On configure notre visualisation
+    nv.addGraph(function() {
+        var chart = nv.models.historicalBarChart();
+
+        chart.xAxis.axisLabel("Par année"); // Légende en abscisse
+
+        chart.yAxis.axisLabel('Nombre de naissances'); // Légende en ordonnée
+
+        d3.select('#datavizNaissance')
+            .datum(getData())
+            .call(chart);
+
+        nv.utils.windowResize(chart.update); // Si la page est redimensionnée, la visualisation s'adapte.
+
+        return chart;
+    });
+});
+
+</script>
+</body>
+</html>

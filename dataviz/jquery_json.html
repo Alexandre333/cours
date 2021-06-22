@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<h1>La méteo à Paris</h1>
+	<div id="meteo"></div>
+	<div id="vent"></div>
+
+	<script>
+		// Utiliser des données d'un fichier JSON
+		$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=Paris,fr&units=metric&APPID=b0e08d79e61f6106a2b9f98d95df1e01", function(data){
+			
+			var temp = Math.round(data.main.temp) + "°C"; // celcius
+			$('#meteo').text("A Paris il fait : " + temp);
+			
+			var vent = Math.round(data.wind.speed* 3.6) + "km/h";
+			$('#vent').text("Le vent souffle à " + vent);
+
+		});
+	</script>
+	
+</body>
+</html>

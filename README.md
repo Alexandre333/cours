@@ -54,4 +54,8 @@
       <li>Thème de base utilisé pour illustrer le cours : <a href="https://github.com/Alexandre333/cours/tree/main/wordpress/wpcours">Thème "wpcours"</a></li>
 </ul>
 
+<h2>Cours Dataviz</h2>
+<ul>
+  <li>En cours</li>  
+</ul>
 

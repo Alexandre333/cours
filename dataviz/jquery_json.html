@@ -14,7 +14,7 @@
 
 	<script>
 		// Utiliser des données d'un fichier JSON
-		$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=Paris,fr&units=metric&APPID=b0e08d79e61f6106a2b9f98d95df1e01", function(data){
+		$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=Paris,fr&units=metric&APPID=<votre clé API>", function(data){
 			
 			var temp = Math.round(data.main.temp) + "°C"; // celcius
 			$('#meteo').text("A Paris il fait : " + temp);

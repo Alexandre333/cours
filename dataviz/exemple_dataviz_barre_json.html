@@ -21,11 +21,11 @@
 <body>
 <h1>Datavisualisation en barres</h1>
 
-<h2>Nombre de naissances en Irlande par année de 1911 à 2020</h2>
-<p>Source : https://data.gov.ie/dataset/births-by-year-and-statistic</p>
+<h2>Effectifs à la SNCF depuis 100 années</h2>
+<p>Source : API SNCF (données non disponibles pour 1920 et 1921)</p>
 
 <!-- On crée une balise SVG pour accueillir notre visualisation -->
-<svg id="datavizNaissance"></svg>
+<svg id="datavizSNCF"></svg>
 
 <script>
 $(document).ready(function(){
@@ -41,24 +41,29 @@ $(document).ready(function(){
 
         // Utilisation des données d'une API publique au format JSON
         // Fonction asynchrone
-        $.getJSON("https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/VSA17/JSON-stat/1.0/", function(data){
+        $.getJSON("https://data.sncf.com/api/records/1.0/search/?dataset=effectifs-disponibles-sncf-depuis-1851&q=&rows=100&sort=date", function(data){
 
-            var debutYear = 1911;
-            var lastYear = 2020;
-            var range = lastYear - debutYear;
+            // On fait une boucle FOR pour récupérer une à une les différentes données de notre JSON
+            // La limite de notre FOR correspond à la longueur de l'objet JSON qu'on reçoit
+            for(var i = 0; i < data.records.length; i++){
+                // On récupère la donnée pour la date
+                // La date sera affichée en abscisse
+                var x = data.records[i].fields.date;
 
-            // On insère les données dans un tableau pour NVD3
-            for(var i = 0; i <= range; i++){
-                var x = debutYear;
-                var y = data.dataset.value[i];
+                // On récupère la donnée pour l'effectif
+                // Le nombre sera affiché en ordonnée
+                var y = data.records[i].fields.effectif_sncf;
+            
+                // On insère les données dans un tableau JS pour quelles soient traitées ensuite avec NVD3
                 tab.push({'x':x, 'y':y});
-                debutYear++;
             }
         });
 
+        // Chaque fonction doit avoir un return
+        // Ici on met en forme avec un tableau et un dictionnaire pour l'envoi vers NVD3
         return [
             {
-                key: "Naissances en Irlande",
+                key: "Effectifs à la SNCF",
                 values: tab // on l'envoie pour notre visualisation
             }
         ]
@@ -68,15 +73,17 @@ $(document).ready(function(){
     nv.addGraph(function() {
         var chart = nv.models.historicalBarChart();
 
-        chart.xAxis.axisLabel("Par année"); // Légende en abscisse
+        chart.xAxis.axisLabel("Année"); // Légende en abscisse
 
-        chart.yAxis.axisLabel('Nombre de naissances'); // Légende en ordonnée
+        chart.yAxis.axisLabel("Nombre d'employés"); // Légende en ordonnée
 
-        d3.select('#datavizNaissance')
+        // Les données sont envoyées dans la balise SVG
+        d3.select('#datavizSNCF')
             .datum(getData())
             .call(chart);
-
-        nv.utils.windowResize(chart.update); // Si la page est redimensionnée, la visualisation s'adapte.
+        
+        // Si la page est redimensionnée, la visualisation s'adapte.
+        nv.utils.windowResize(chart.update); 
 
         return chart;
     });

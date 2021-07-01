@@ -63,7 +63,7 @@
   <li>Exemple de dataviz avec diagramme linéraire : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/exemple_dataviz_temperature.html">exemple_dataviz_temperature.html</a></li>
 </ul>
 
-<h2>Python</h2>
+<h2>Cours Python</h2>
 <ul>
   <li>Coming soon... 🕒</li>  
 </ul>

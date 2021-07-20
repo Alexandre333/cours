@@ -64,9 +64,10 @@
 <ul>
   <li>JS : Exemple d'utilisation d'API et de JSON avec jQuery : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/jquery_json.html">jquery_json.html</a></li>
   <li>JS : Les fichiers de la librairie NVD3.js : le fichier javascript <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/nv.d3.js">nv.d3.js</a> et le fichier de style <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/nv.d3.css">nv.d3.css</a></li>
-  <li>JS : Exemple de dataviz avec diagramme circulaire : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/exemple_dataviz_camembert.html">exemple_dataviz_camembert.html</a></li>
-  <li>JS : Exemple de dataviz avec diagramme en barres : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/exemple_dataviz_barre_json.html">exemple_dataviz_barre_json.html</a></li>
-  <li>JS : Exemple de dataviz avec diagramme linéraire : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/exemple_dataviz_temperature.html">exemple_dataviz_temperature.html</a></li>
+  <li>JS NVD3 : Exemple de dataviz avec diagramme circulaire : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/exemple_dataviz_camembert.html">exemple_dataviz_camembert.html</a></li>
+  <li>JS NVD3 : Exemple de dataviz avec diagramme en barres : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/exemple_dataviz_barre_json.html">exemple_dataviz_barre_json.html</a></li>
+  <li>JS NVD3 : Exemple de dataviz avec diagramme linéraire : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/exemple_dataviz_temperature.html">exemple_dataviz_temperature.html</a></li>
+  <li>JS CHART : en cours...</li>
   <li>---</li>
   <li>Py : Exemple d'utilisation d'API : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/py_api_json.py">py_api_json.py</a></li>
   <li>Py : Exemple de dataviz avec diagramme circulaire : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/matplotlib_exemple_dataviz_camembert.py">matplotlib_exemple_dataviz_camembert.py</a></li>

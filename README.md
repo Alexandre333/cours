@@ -54,6 +54,12 @@
       <li>Thème de base utilisé pour illustrer le cours : <a href="https://github.com/Alexandre333/cours/tree/main/wordpress/wpcours">Thème "wpcours"</a></li>
 </ul>
 
+<h2>Cours Python</h2>
+<ul>
+  <li>Exemples de code Python des slides : <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_generaux.py">exemple_generaux.py</a></li>
+  <li>Exemples d'utilisation de librairies des slides : <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_librairies.py">exemple_librairies.py</a></li>
+</ul>
+
 <h2>Cours Dataviz</h2>
 <ul>
   <li>JS : Exemple d'utilisation d'API et de JSON avec jQuery : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/jquery_json.html">jquery_json.html</a></li>
@@ -61,11 +67,8 @@
   <li>JS : Exemple de dataviz avec diagramme circulaire : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/exemple_dataviz_camembert.html">exemple_dataviz_camembert.html</a></li>
   <li>JS : Exemple de dataviz avec diagramme en barres : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/exemple_dataviz_barre_json.html">exemple_dataviz_barre_json.html</a></li>
   <li>JS : Exemple de dataviz avec diagramme linéraire : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/exemple_dataviz_temperature.html">exemple_dataviz_temperature.html</a></li>
-  <li>Py : </li>
-</ul>
-
-<h2>Cours Python</h2>
-<ul>
-  <li>Exemples de code Python des slides : <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_generaux.py">exemple_generaux.py</a></li>
-  <li>Exemples d'utilisation de librairies des slides : <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_librairies.py">exemple_librairies.py</a></li>
+  <li>Py : Exemple d'utilisation d'API : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/py_api_json.py">py_api_json.py</a></li>
+  <li>Py : Exemple de dataviz avec diagramme circulaire : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/matplotlib_exemple_dataviz_camembert.py">matplotlib_exemple_dataviz_camembert.py</a></li>
+  <li>Py : Exemple de dataviz avec diagramme en barres : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/matplotlib_exemple_dataviz_bar.py">matplotlib_exemple_dataviz_bar.py</a></li>
+  <li>Py : Exemple de dataviz avec diagramme linéraire : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/matplotlib_exemple_dataviz_line.py">matplotlib_exemple_dataviz_line.py</a></li>
 </ul>

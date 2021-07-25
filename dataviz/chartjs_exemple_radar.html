@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"></script>
+    <title>Chart.js Radar</title>
+     
+</head>
+<body>
+<h1>Performances d'un joueur de foot</h1>
+<h2>Avec le Radar Chart</h2>
+<p>Données factices</p>
+<div>
+    <canvas id="myChart"></canvas>
+</div>
+
+<script>
+// On déclare les datas :
+// le label + sa donnée
+// On peut configurer aussi l'apparance
+const data = {
+    labels: [
+        'Tir',
+        'Passe',
+        'Drible',
+        'Défense',
+        'Endurance'
+    ],
+    datasets: [{
+        // Le texte de la légende
+        label: 'Indice de perfomance',
+        // Les données
+        data: [75, 80, 90, 81, 56],
+        // Est-ce qu'on remplit l'air de données ?
+        fill: true,
+        // Avec quelle couleur ?
+        backgroundColor: 'rgba(134, 231, 184, 0.2)',
+        // Et la couleur de la bordure ?
+        borderColor: 'rgb(30, 153, 94)'
+    }]
+};
+
+// On configure notre chart
+const config = {
+    // On choisit le type de chart
+    type: 'radar',
+    // On insère les données
+    data: data,
+    // On ajoute de la personnalisation
+    options: {
+        elements: {
+            line: {
+                borderWidth: 2 // La largeur du trait
+            }
+        },
+        scale: {
+            min: 0, // Indice min du graphique
+            max: 100 // Indice max du graphique
+        },
+        aspectRatio: 2, // Pour le responsive
+        scales: {
+            r: {
+                pointLabels: {
+                    font: {
+                        size: 18 // Taille du texte label
+                    }
+                }
+            }
+        }
+    }
+};
+
+// On affiche le chart dans l'élément avec l'ID correspondant
+var myChart = new Chart(
+    document.getElementById('myChart'),
+    config
+);
+
+
+</script>
+</body>
+</html>

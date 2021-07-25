@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"></script>
+    <title>Chart.js line</title>
+     
+</head>
+<body>
+<h1>Nombre de pays participants aux Jeux Olympiques d'été de 1896 à 2020</h1>
+<h2>Avec le Line Chart</h2>
+<p>https://fr.statista.com/statistiques/582968/jeux-olympiques-ete-nombre-de-pays-participants/</p>
+
+<div>
+    <canvas id="myChart"></canvas>
+</div>
+
+<script>
+// On déclare les datas :
+// le label + sa donnée
+// On peut configurer aussi l'apparance
+const data = {
+    labels: [1896, 1900, 1904, 1906, 1908, 1912, 1920, 1924, 1928, 1932, 1936, 1948, 1952, 1956, 1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020],
+    datasets: [{
+        label: 'Nombre de pays participants',
+        data: [12, 29, 15, 21, 22, 29, 29, 45, 46, 47, 49, 59, 69, 67, 83, 93, 112, 121, 92, 80, 140, 159, 169, 197, 200, 201, 204, 204, 208, 206],
+        fill: true,
+        backgroundColor: 'rgba(251, 178, 46, 0.2)',
+        borderColor: 'rgb(22, 140, 57)',
+        tension: 0.5 // La fluidité de la ligne
+    }]
+};
+
+// On configure notre chart
+const config = {
+    type: 'line',
+    data: data,
+    options: {
+        aspectRatio: 3, // Pour le responsive
+        
+    }
+};
+
+// On affiche le chart dans l'élément avec l'ID correspondant
+var myChart = new Chart(
+    document.getElementById('myChart'),
+    config
+);
+
+
+</script>
+</body>
+</html>

@@ -34,15 +34,17 @@ for i in range(len(data['daily'])):
     x_value.append(date)
     y_value.append(meteo)
 
-
 # On configure le chart
 pyplot.plot(x_value, y_value, color="green")
 pyplot.xlabel("Journée") # Légende à X
 pyplot.ylabel("Température °C") # Légende pour Y
+pyplot.fill_between(x_value, y_value, alpha=.3, color="red") # Ajouter un remplissage
+pyplot.ylim(ymin=15) # On commence le Y par 15
 
 # On ajoute un titre et on modifie sa taille
 titre = pyplot.title('Prochaines températures à Paris')
 titre.set_fontsize(14)
+
 
 # On affiche notre chart avec toutes ses configurations
 pyplot.show()

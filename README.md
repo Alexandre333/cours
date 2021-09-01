@@ -62,7 +62,7 @@
   <li>Exemples avec l'écriture et la lecture de fichiers : <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_fichier_texte.py">exemple_fichier_texte.py</a></li>
   <li>Exemple avec le module OS :  <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_os.py">exemple_os.py</a></li>
   <li>Exemple avec le format ZIP :  <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_zipfile.py">exemple_zipfile.py</a></li>
-  <li>Exemples avec la librairie Pandas : son fichier Python <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_pandas.py">exemple_pandas.py</a> et le tableur Excel <a href="https://github.com/Alexandre333/cours/blob/main/python/data_client.xlsx">data_client.xlsx</a></li>
+  <li>Exemples avec la librairie Pandas : son fichier Python <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_pandas.py">exemple_pandas.py</a> et le tableur Excel <a href="https://github.com/Alexandre333/cours/blob/main/python/data_client.xlsx">data_client.xlsx</a> pour l'exemple d'importation</li>
 </ul>
 
 <h2>Cours Dataviz</h2>

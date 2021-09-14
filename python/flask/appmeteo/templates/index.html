@@ -1,0 +1,35 @@
+{% extends 'annexes/layout.html' %} 
+
+{% block body %}
+	
+	<a href="/mentions">Accéder à la page des mentions légales</a>
+
+	<h1>Bienvenue sur mon site : "{{ data["projet"] }}"</h1>
+	<h2>Sélectionnez une ville et regardez la méteo !</h2>
+
+	<form action="/meteo" method="GET">
+		
+		<select name="ville">
+			<option value="">---</option>
+			<option value="paris">Paris</option>
+			<option value="berlin">Berlin</option>
+			<option value="seoul">Séoul</option>
+			<option value="rome">Rome</option>
+		</select>
+
+		<input type="submit" value="Confirmer">
+
+	</form>
+
+	<br>
+
+	{% if data["heure"] > 18 %}
+		<p>Bonsoir,
+	{% else %}
+		<p>Bonjour,
+	{% endif %}
+
+	il est {{data["heure"]}}:{{data["minute"]}} et nous sommes un {{ data["jour"] | lower }}</p>
+
+
+{% endblock %}

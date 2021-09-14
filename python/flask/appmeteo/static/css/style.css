@@ -1,0 +1,20 @@
+h1{
+	color: red;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+.container, form{
+	text-align: center;
+}
+
+ul{
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	list-style-type: none;
+	padding: 0;
+}

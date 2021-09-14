@@ -1,0 +1,30 @@
+{% extends 'annexes/layout.html' %} 
+
+{% block body %}
+
+	<a href="/">Retourner à la page d'accueil</a>
+
+	<h1>Voici des informations concernant ce site</h1>
+	
+	<ul>
+		<li>Responsable du site : {{ data["responsable"] }}</li>
+		<li>Nom de la société : {{ data["societe"] }}</li>
+	</ul>
+
+	<h2>L'équipe de développeurs</h2>
+	
+	<ul>
+		{% for dev in data["developpeurs"] %}
+			<li>{{ dev.nom }}</li>
+		{% endfor %}
+	</ul>
+
+	<h2>Formulaire d'ajout</h2>
+	<form action="/mentions/" method="POST">
+		<p>Nom du nouveau développeur :</p>
+		<input type="text" name="nom">
+
+		<input type="submit" value="Envoyer">
+	</form>
+
+{% endblock %}

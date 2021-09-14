@@ -1,0 +1,13 @@
+{% extends 'annexes/layout.html' %} 
+
+{% block body %}
+
+	<a href="/">Retourner à la page d'accueil</a>
+
+	<h1>La météo</h1>
+	
+	<p>A {{ data["ville"]|capitalize }}, il fait actuellement {{ data["temperature_celcius"] }}°C</p>
+
+	<a href='/ville/{{ data["ville"] }}'>En savoir plus sur {{ data["ville"]|capitalize }}</a>
+
+{% endblock %}

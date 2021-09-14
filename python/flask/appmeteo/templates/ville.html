@@ -1,0 +1,14 @@
+{% extends 'annexes/layout.html' %} 
+
+{% block body %}
+
+	<a href="/">Retourner à la page d'accueil</a>
+
+	<h1>{{ data["ville"]|capitalize }}</h1>
+	
+	<p>{{ data["description"] }}</p>
+
+	<img src='{{ data["image"] }}' width="300">
+
+	<br>
+{% endblock %}

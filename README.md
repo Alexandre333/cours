@@ -57,7 +57,7 @@
 <h2>Cours Python</h2>
 <ul>
   <li>Exemples de code Python des slides : <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_generaux.py">exemple_generaux.py</a></li>
-  <li>Exercices d'initiation : <a href="https://github.com/Alexandre333/cours/blob/main/python/exercices_generaux.py">exercices_generaux.php</a> et le <a href="https://github.com/Alexandre333/cours/blob/main/python/exercices_generaux_corriges.py">corrigé</a></li>
+  <li>Exercices d'initiation : <a href="https://github.com/Alexandre333/cours/blob/main/python/exercices_generaux.py">exercices_generaux.py</a> et le <a href="https://github.com/Alexandre333/cours/blob/main/python/exercices_generaux_corriges.py">corrigé</a></li>
   <li>Exemples d'utilisation de librairies des slides : <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_librairies.py">exemple_librairies.py</a></li>
   <li>Exemples avec l'écriture et la lecture de fichiers : <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_fichier_texte.py">exemple_fichier_texte.py</a></li>
   <li>Exemple avec le module OS :  <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_os.py">exemple_os.py</a></li>

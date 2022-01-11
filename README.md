@@ -63,6 +63,7 @@
   <li>Exemple avec le module OS :  <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_os.py">exemple_os.py</a></li>
   <li>Exemple avec le format ZIP :  <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_zipfile.py">exemple_zipfile.py</a></li>
   <li>Exemples avec la librairie Pandas : son fichier Python <a href="https://github.com/Alexandre333/cours/blob/main/python/exemple_pandas.py">exemple_pandas.py</a> et le tableur Excel <a href="https://github.com/Alexandre333/cours/blob/main/python/data_client.xlsx">data_client.xlsx</a> pour l'exemple d'importation</li>
+  <li>Exemple pour les tests unitaires : <a href="https://github.com/Alexandre333/cours/blob/main/python/test_exemple.py">test_exemple.py</a></li>
   <li>Framework Flask : le <a href="https://github.com/Alexandre333/cours/tree/main/python/flask">projet</a> qui illustre le cours</li>
 </ul>
 

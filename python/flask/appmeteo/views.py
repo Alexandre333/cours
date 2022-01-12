@@ -110,7 +110,7 @@ def ville(nom):
     # Le titre H1 de la page
     data["ville"] = result.getTitle()
     # Le premier et deuxième paragraphe du résumé
-    data["description"] = result.getSummary()[0] + " " + result.getSummary()[1]
+    data["description"] = result.getAbstract()[0] + " " + result.getAbstract()[1]
     # L'image d'illustration utilisée dans la page
     data["image"] = result.getImage()[0]
 

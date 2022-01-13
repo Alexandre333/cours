@@ -1,3 +1,4 @@
+# coding: utf-8
 # On importe les différents modules utilisés
 from flask import *
 import requests

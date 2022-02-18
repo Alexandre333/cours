@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <title>Chart.js line</title>
+     
+</head>
+<body>
+<h1>Datavisualisation en barres (avec API)</h1>
+
+<h2>Effectifs à la SNCF depuis 100 années</h2>
+<p>Source : API SNCF (données non disponibles pour 1920 et 1921)</p>
+
+<div>
+    <canvas id="myChart"></canvas>
+</div>
+
+<script>
+    $.ajaxSetup({
+        async: false
+    });
+// On déclare les datas :
+// le label + sa donnée
+// On peut configurer aussi l'apparance
+    var tabx = [];
+    var taby = [];
+
+        $.getJSON("https://data.sncf.com/api/records/1.0/search/?dataset=effectifs-disponibles-sncf-depuis-1851&q=&rows=100&start=71&sort=-date&facet=date", function(data){
+
+            // On fait une boucle FOR pour récupérer une à une les différentes données de notre JSON
+            // La limite de notre FOR correspond à la longueur de l'objet JSON qu'on reçoit
+            for(var i = 0; i < data.records.length; i++){
+                // On récupère la donnée pour la date
+                // La date sera affichée en abscisse
+                var x = data.records[i].fields.date;
+
+                // On récupère la donnée pour l'effectif
+                // Le nombre sera affiché en ordonnée
+                var y = data.records[i].fields.effectif_sncf;
+            
+                // On insère les données dans un tableau JS pour quelles soient traitées ensuite avec NVD3
+                tabx.push(x);
+                taby.push(y);
+            }
+            
+        });
+
+        console.log(tabx);
+        console.log(taby);
+
+    const data = {
+        labels: tabx,
+        datasets: [{
+            label: 'Effectif SNCF',
+            data: taby,
+            fill: true,
+            backgroundColor: 'red',
+            borderColor: 'red',
+            tension: 0.5 // La fluidité de la ligne
+        }]
+    };
+
+    // On configure notre chart
+    const config = {
+      type: 'bar',
+      data: data,
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            position: 'top',
+          },
+          title: {
+            display: true,
+            text: 'Chart.js Bar Chart'
+          }
+        }
+      },
+    };
+
+    // On affiche le chart dans l'élément avec l'ID correspondant
+    var myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+    );
+
+
+</script>
+</body>
+</html>

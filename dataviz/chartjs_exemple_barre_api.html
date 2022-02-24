@@ -5,7 +5,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <title>Chart.js line</title>
+    <title>Chart.js line avec api</title>
      
 </head>
 <body>
@@ -22,9 +22,9 @@
     $.ajaxSetup({
         async: false
     });
-// On déclare les datas :
-// le label + sa donnée
-// On peut configurer aussi l'apparance
+    // On déclare les datas :
+    // le label + sa donnée
+    // On peut configurer aussi l'apparance
     var tabx = [];
     var taby = [];
 
@@ -41,7 +41,7 @@
                 // Le nombre sera affiché en ordonnée
                 var y = data.records[i].fields.effectif_sncf;
             
-                // On insère les données dans un tableau JS pour quelles soient traitées ensuite avec NVD3
+                // On insère les données dans un tableau JS pour quelles soient traitées ensuite avec chart js
                 tabx.push(x);
                 taby.push(y);
             }
@@ -59,7 +59,6 @@
             fill: true,
             backgroundColor: 'red',
             borderColor: 'red',
-            tension: 0.5 // La fluidité de la ligne
         }]
     };
 

@@ -13,11 +13,15 @@
 
 	<h2>L'équipe de développeurs</h2>
 	
-	<ul>
-		{% for dev in data["developpeurs"] %}
-			<li>{{ dev.nom }}</li>
-		{% endfor %}
-	</ul>
+	{% if data["developpeurs"].count() > 0 %}
+		<ul>
+			{% for dev in data["developpeurs"] %}
+				<li>{{ dev.nom }}</li>
+			{% endfor %}
+		</ul>
+	{% else %}
+		<p>Pas de membre dans l'équipe !</p>
+	{% endif %}
 
 	<h2>Formulaire d'ajout</h2>
 	<form action="/mentions/" method="POST">

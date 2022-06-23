@@ -2,6 +2,9 @@
 
 // Liens avec nos fichiers CSS
 function LoadCSSFiles(){
+	
+	/* Importer une font google */
+	/*wp_enqueue_style('font-google','https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap', false );*/
 
 	// Appel du framework Bootstrap CSS
 	wp_enqueue_style('bootstrap-style', get_template_directory_uri().'/assets/css/bootstrap.min.css');
@@ -15,7 +18,8 @@ function LoadCSSFiles(){
 	// Appel seulement sur la page d'accueil
 	/*if( is_front_page() ) {
 		wp_enqueue_script( 'slug', ... );
-	}*/	
+	}*/
+	
 }
 add_action('wp_enqueue_scripts', 'LoadCSSFiles');
 

@@ -1,0 +1,19 @@
+.encadre{
+	width: 200px;
+	background-color: red;
+}
+
+.cible{
+	color: red;
+	font-weight: bold;
+}
+
+.flexbox_parent{
+	display: flex;
+	justify-content: space-around;
+}
+
+.flexbox_enfant{
+	border: 2px red solid;
+	width: 20%;
+}

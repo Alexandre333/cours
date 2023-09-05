@@ -89,5 +89,6 @@
 <h2>Cours animation CSS</h2>
 <ul>
   <li>Rappel des bases du HTML et CSS : le <a href="https://github.com/Alexandre333/cours/blob/main/animation/rappel.html">fichier HTML</a> et son <a href="https://github.com/Alexandre333/cours/blob/main/animation/style_rappel.css">design</a></li>
+  <li>Exemple d'utilisation de la librairie animate.css : <a href="https://github.com/Alexandre333/cours/blob/main/animation/lib_animation.html">lib_animation.html</a></li>
   
 </ul>

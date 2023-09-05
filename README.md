@@ -85,3 +85,9 @@
   <li>Py : Exemple de dataviz avec diagramme en barres : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/matplotlib_exemple_dataviz_bar.py">matplotlib_exemple_dataviz_bar.py</a></li>
   <li>Py : Exemple de dataviz avec diagramme linéraire : <a href="https://github.com/Alexandre333/cours/blob/main/dataviz/matplotlib_exemple_dataviz_line.py">matplotlib_exemple_dataviz_line.py</a></li>
 </ul>
+
+<h2>Cours animation CSS</h2>
+<ul>
+  <li>Rappel des bases du HTML et CSS : le <a href="https://github.com/Alexandre333/cours/blob/main/animation/rappel.html">fichier HTML</a> et son <a href="https://github.com/Alexandre333/cours/blob/main/animation/style_rappel.css">design</a></li>
+  
+</ul>
